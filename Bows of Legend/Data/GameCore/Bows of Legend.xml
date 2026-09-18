@@ -26,6 +26,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>A_LightningHammer_Particle</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Longbow_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Longbow_Masterwork_01.sdf</Texture_All>
@@ -87,8 +116,18 @@
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>8</Value>
         </GameModifier>	
+		<GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ArmorPierce</StrVal>
+            <Value>20</Value>
+        </GameModifier>
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
 
@@ -117,6 +156,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Longbow_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Longbow_01.sdf</Texture_All>
@@ -167,7 +235,11 @@
         </GameModifier>	
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
-        <HeroOnly>1</HeroOnly>
+		<Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
+		<HeroOnly>1</HeroOnly>
     </GameItemType>
 
     <!-- 3. DRAGONBONE RECURVE -->
@@ -195,6 +267,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Longbow_Ignys_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Longbow_Ignys_01.sdf</Texture_All>
@@ -252,6 +353,10 @@
         
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>6</Attribute>
+        </Prereq>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
 
@@ -280,6 +385,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Shortbow_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Shortbow_01.sdf</Texture_All>
@@ -314,7 +448,7 @@
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_CombatSpeed</StrVal>
-            <Value>15</Value>
+            <Value>-5</Value>
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
@@ -328,9 +462,18 @@
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>5</Value>
         </GameModifier>	
-        
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ArmorPierce</StrVal>
+            <Value>15</Value>
+        </GameModifier>
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>3</Attribute>
+        </Prereq>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
 
@@ -359,6 +502,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Crossbow_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Crossbow_01.sdf</Texture_All>
@@ -413,8 +585,18 @@
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>3</Value>
         </GameModifier>	
+		<GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ArmorPierce</StrVal>
+            <Value>10</Value>
+        </GameModifier>
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
 
@@ -443,6 +625,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Shortbow_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Shortbow_01.sdf</Texture_All>
@@ -465,13 +676,13 @@
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Attack</StrVal>
-            <Value>8</Value>
+            <Value>12</Value>
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Attack_Pierce</StrVal>
-            <Value>8</Value>
+            <Value>12</Value>
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
@@ -491,9 +702,18 @@
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>2</Value>
         </GameModifier>	
-        
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ArmorPierce</StrVal>
+            <Value>20</Value>
+        </GameModifier>
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>3</Attribute>
+        </Prereq>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
 
@@ -522,6 +742,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Longbow_Toxic_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Longbow_Toxic_01.sdf</Texture_All>
@@ -573,6 +822,10 @@
         
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>4</Attribute>
+        </Prereq>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
 
@@ -602,6 +855,35 @@
                 <OnAttackParticleName>Spider_Attack</OnAttackParticleName>
                 <OnHitParticleName>Spider_Hit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Shortbow_Crude_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Shortbow_Crude_01.sdf</Texture_All>
@@ -646,6 +928,10 @@
         </GameModifier>
         
         <TacticalRange>8</TacticalRange>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
@@ -675,7 +961,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
-                <GameItemTypeModel>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>                <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Longbow_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Longbow_Masterwork_01.sdf</Texture_All>
                     <Attachment>hand_left_Lcf</Attachment>
@@ -729,8 +1043,18 @@
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>10</Value>
         </GameModifier>	
+		<GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ArmorPierce</StrVal>
+            <Value>33</Value>
+        </GameModifier>
         
         <TacticalRange>8</TacticalRange>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
@@ -760,6 +1084,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Longbow_Toxic_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Longbow_Toxic_01.sdf</Texture_All>
@@ -808,10 +1161,19 @@
             <StrVal>UnitStat_Range</StrVal>
             <Value>5</Value>
         </GameModifier>
-        
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ArmorPierce</StrVal>
+            <Value>17</Value>
+        </GameModifier>
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
-        <HeroOnly>1</HeroOnly>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>7</Attribute>
+        </Prereq> 
+ <HeroOnly>1</HeroOnly>
     </GameItemType>
 
     <!-- 11. RANGER'S ENERGY BOW -->
@@ -839,6 +1201,35 @@
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
                 <SoundPack>SoundPack_Bow</SoundPack>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Banshee</SupportedUnitModelType>
+                <SupportedUnitModelType>DarklingMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IronGolem</SupportedUnitModelType>
+                <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Skeleton</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Female</SupportedUnitModelType>
+				<SupportedUnitModelType>Gray Elf Male</SupportedUnitModelType>
                 <GameItemTypeModel>
                     <ModelFile>FBXExport\Meshes\W_Longbow_Ignys_01.fbx</ModelFile>
                     <Texture_All>FBXExport\Meshes\W_Longbow_Ignys_01.sdf</Texture_All>
@@ -887,9 +1278,18 @@
             <StrVal>UnitStat_Range</StrVal>
             <Value>5</Value>
         </GameModifier>
-        
+		<GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ArmorPierce</StrVal>
+            <Value>14</Value>
+        </GameModifier>        
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>4</Attribute>
+        </Prereq>
         <HeroOnly>1</HeroOnly>
     </GameItemType>
 
