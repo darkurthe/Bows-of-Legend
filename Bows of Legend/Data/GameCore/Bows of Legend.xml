@@ -14,7 +14,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>950</ShopValue>
-        <Likelihood>5</Likelihood>
+        <Likelihood>10</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -144,7 +145,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>950</ShopValue>
-        <Likelihood>5</Likelihood>
+        <Likelihood>10</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -255,7 +257,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>850</ShopValue>
-        <Likelihood>15</Likelihood>
+        <Likelihood>10</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -373,7 +376,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>600</ShopValue>
-        <Likelihood>40</Likelihood>
+        <Likelihood>25</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -490,7 +494,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>950</ShopValue>
-        <Likelihood>5</Likelihood>
+        <Likelihood>10</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -613,7 +618,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>200</ShopValue>
-        <Likelihood>80</Likelihood>
+        <Likelihood>25</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -730,7 +736,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>600</ShopValue>
-        <Likelihood>40</Likelihood>
+        <Likelihood>10</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -842,7 +849,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>600</ShopValue>
-        <Likelihood>40</Likelihood>
+        <Likelihood>10</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -949,7 +957,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>950</ShopValue>
-        <Likelihood>5</Likelihood>
+		<Likelihood>10</Likelihood>
+		<RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
@@ -1072,7 +1081,8 @@
         <CanBeEquipped>1</CanBeEquipped>
         <IsTreasure>1</IsTreasure>
         <ShopValue>850</ShopValue>
-        <Likelihood>15</Likelihood>
+		<Likelihood>10</Likelihood>
+		<RarityDisplay>Rare</RarityDisplay>
         <CustomizationPointCost>0</CustomizationPointCost>
         <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
         
