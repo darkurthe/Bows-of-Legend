@@ -66,7 +66,7 @@
                         <EffectName>A_LightningHammer_Particle</EffectName>
                         <EffectPosition>0,0,-5</EffectPosition>
                         <EffectRotation>0,0,0</EffectRotation>
-                        <EffectScale>0.75</EffectScale>
+                        <EffectScale>2.75</EffectScale>
                     </EffectAttachment>
                 </GameItemTypeModel>
                 <ProjectileModel>W_Arrow_Projectile_01.hkb</ProjectileModel>
@@ -216,24 +216,28 @@
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Attack_Pierce</StrVal>
             <Value>18</Value>
+            <Provides>+18 Pierce Attack</Provides>			
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Range</StrVal>
             <Value>6</Value>
+            <Provides>+6 Range</Provides>			
         </GameModifier>
 		<GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_CombatSpeed</StrVal>
             <Value>-3</Value>
+            <Provides>-3 Combat Speed</Provides>			
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>5</Value>
+            <Provides>+5 to Crit</Provides>
         </GameModifier>	
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
@@ -328,30 +332,35 @@
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Attack_Pierce</StrVal>
             <Value>5</Value>
+            <Provides>+5 Pierce Attack</Provides>			
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Attack_Fire</StrVal>
             <Value>13</Value>
+            <Provides>+13 Fire Attack</Provides>			
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Range</StrVal>
             <Value>5</Value>
+            <Provides>+5 Range</Provides>			
         </GameModifier>
 		<GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_MagicResist</StrVal>
             <Value>5</Value>
+            <Provides>+15 Magic Resistance</Provides>
         </GameModifier>
 		<GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>2</Value>
+            <Provides>+2 to Crit</Provides>
         </GameModifier>	
         
         <TacticalRange>8</TacticalRange>
@@ -384,7 +393,7 @@
         <ArtDef>ArtDef_GoldenWood</ArtDef>
         <GameItemTypeArtDef InternalName="ArtDef_GoldenWood">
             <GameItemTypeModelPack InternalName="GoldenWood_default">
-                <IconFile>Gfx\Items\W_Longbow_Yew_Icon_01.dds</IconFile>
+                <IconFile>Gfx\Items\Arrowhead_Razorfin.dds</IconFile>
                 <AttackSFX>Hit_Bow_01</AttackSFX>
                 <EquipSFX>Equip_WoodenItem_01</EquipSFX>
                 <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
@@ -447,30 +456,35 @@
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Attack_Pierce</StrVal>
             <Value>12</Value>
+            <Provides>+12 Pierce Attack</Provides>			
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_CombatSpeed</StrVal>
             <Value>-5</Value>
+            <Provides>-5 Combat Speed</Provides>			
         </GameModifier>
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_Range</StrVal>
             <Value>5</Value>
+            <Provides>+5 Range</Provides>
         </GameModifier>
 		<GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_ChanceToCrit</StrVal>
             <Value>5</Value>
+            <Provides>+15 to Crit</Provides>
         </GameModifier>	
         <GameModifier>
             <ModType>Unit</ModType>
             <Attribute>AdjustUnitStat</Attribute>
             <StrVal>UnitStat_ArmorPierce</StrVal>
             <Value>15</Value>
+            <Provides>+15 Armor Piercing</Provides>
         </GameModifier>
         <TacticalRange>8</TacticalRange>
         <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
